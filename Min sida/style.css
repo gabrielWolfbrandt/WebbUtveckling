@@ -1,0 +1,63 @@
+body {
+  background-image: url(background.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Roboto Slab", serif;
+  padding: 15px;
+  background-image: url(boohc1.png);
+  color: rgb(255, 255, 255);
+}
+
+.headerGrid {
+  display: grid;
+  grid-template-columns: 33vw 33vw 34vw;
+}
+
+.headImg {
+  grid-column-start: 1;
+}
+
+.mainTitle {
+  grid-column-start: 2;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 32px;
+  color: white;
+}
+
+main {
+  width: 50vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+
+article {
+  width: 50vw;
+  text-align: center;
+  background-color: rgb(103, 155, 103);
+  color: white;
+}
+
+nav li a {
+  color: white;
+}
+
+nav li a:hover {
+  color: rgb(141, 141, 15);
+}
+
+footer {
+  padding: 8px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
