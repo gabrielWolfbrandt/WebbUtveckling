@@ -8,26 +8,23 @@
     <script defer src="main.js" charset="UTF-8"></script>
   </head>
   <body>
-    <header></header>
-    <nav></nav>
-    <main></main>
     <div class="container">
       <div class="grid grid-user"></div>
       <div class="grid grid-computer"></div>
     </div>
-    <div class="container">
-      <button id="start">Start Game</button>
+
+    <div class="hidden-info">
       <button id="rotate">Rotate Ships</button>
-      <h4 id="next-turn">Your turn</h4>
-      <h4 id="info"></h4>
-    </div>
-    <div class="grid-display">
-      <div class="ship destroy-container" draggable="true">
-        <div id="destoryer-1"></div>
-        <div id="destoryer-2"></div>
-        </div>
+      <button id="start">Start Game</button>
+      <h3 id="next-turn">Your turn</h3>
+      <h3 id="info"></h3>
     </div>
 
-    <footer></footer>
+    <div class="grid-display">
+      <div class="ship destroy-container" draggable="true">
+        <div id="destoryer-0"></div>
+        <div id="destoryer-1"></div>
+      </div>
+    </div>
   </body>
 </html>

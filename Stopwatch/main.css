@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Menlo;
+}
+
+.controls {
+  position: fixed;
+  text-align: center;
+  top: 1em;
+  width: 100%;
+}
+
+.button {
+  color: rgb(0, 0, 0);
+  font-size: 4vw;
+  margin: 0 0.5em;
+  text-decoration: none;
+}
+
+.button:first-child {
+    margin-left: 0;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button:hover {
+  color: rgb(83, 83, 83);
+}
+
+.stopwatch {
+  font-size: 20vw;
+  height: 100%;
+  line-height: 100vh;
+  text-align: center;
+}
